@@ -19,4 +19,14 @@ fun main() {
     val brandVal =  "Izzatillo"
 //    brandVal = "Izzatillo swe"
 
+    val email = """
+        Hello %s
+           How 
+        are you 
+    """.trimIndent()
+
+    println(email.format("Izzatillo"))
+
+    println(kotlin.math.max(3, 2))
+
 }
